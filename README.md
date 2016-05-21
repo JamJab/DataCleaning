@@ -7,7 +7,8 @@ Following files related to computation of tidy data are included:
 - "CodeBook.md" : describe variables, data, and transformations performed to clean up the data
 - "run_analysis.R": compute tidy dataset with mean values of aceloremeter anf gyroscope data
 
-The following files are needed as inputs prior to running "run_analysis.R":
+The following files are needed as inputs prior to running "run_analysis.R". They are located in the "UCI HAR Dataset" directory, also provided in the Github repository.
+
 - 'README.txt'
 - 'features_info.txt': Shows information about the variables used on the feature vector.
 - 'features.txt': List of all features.
