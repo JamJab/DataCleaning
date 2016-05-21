@@ -1,0 +1,43 @@
+help
+File >> New Project
+clear
+clean
+File >> New Project
+library(httr)
+oauth_endpoints("github")
+myapp <- oauth_app("github",key = "d9cde99fe1d6155c1fab", secret = "b6d19e301eaf421cbe1db2e5057e1f1b7ed25c65")
+github_token <- oauth2.0_token(oauth_endpoints("github"), myapp)
+gtoken <- config(token = github_token)
+req <- GET("https://api.github.com/rate_limit", gtoken)
+stop_for_status(req)
+content(req)
+library(httr)
+oauth_endpoints("github")
+myapp <- oauth_app("github",key = "d9cde99fe1d6155c1fab", secret = "b6d19e301eaf421cbe1db2e5057e1f1b7ed25c65")
+github_token <- oauth2.0_token(oauth_endpoints("github"), myapp)
+github_token <- oauth1.0_token(oauth_endpoints("github"), myapp)
+library(httr)
+oauth_endpoints("github")
+myapp <- oauth_app("github",key = "d9cde99fe1d6155c1fab", secret = "8558a067baa778537ccb8eb77eaa8bd2abad82a4")
+myapp
+github_token <- oauth2.0_token(oauth_endpoints("github"), myapp)
+install.packages("httpuv")
+library(httpuv)
+github_token <- oauth2.0_token(oauth_endpoints("github"), myapp)
+gtoken <- config(token = github_token)
+req <- GET("https://api.github.com/rate_limit", gtoken)
+stop_for_status(req)
+req
+demo("oauth2-github", package = "httr", ask = FALSE)
+github_token <- oauth2.0_token(oauth_endpoints("github"), myapp)
+gtoken <- config(token = github_token)
+req <- GET("https://api.github.com/rate_limit", gtoken)
+req
+stop_for_status(req)
+content(req)
+getwd()
+setwd("/Users/praffy/datasciencecoursera/DataCleaning/")
+getwd()
+dir()
+git init
+$git init
